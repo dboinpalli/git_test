@@ -211,29 +211,7 @@ var wrapper = document.getElementById("signature-pad"),
 // signature image save
 $('#submitsavesign').click(function(){
 
-// html2canvas([document.getElementById('sign-pad')], {
-//           onrendered: function (canvas) {
-//             var canvas_img_data = canvas.toDataURL('image/png');
-//             var img_data = canvas_img_data.replace(/^data:image\/(png|jpg);base64,/, "");
-//             var img_name = '';
 
-            
-//             //ajax call to save image inside folder
-//             $.ajax({
-//               url: '/pages/save_sign.php',
-//               data: { img_data:img_data },
-//               type: 'post',
-//               dataType: 'json',
-//               success: function (response) {
-//                 console.log(response);
-//                 img_name = response.file;
-//               $('#filename').val(img_name);
-
-//                 // window.location.reload();
-//               }
-//             });
-//           }
-//         });
 
 });
 
